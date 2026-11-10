@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+.profile-card {
+  width: 400px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 2px 2px 8px black;
+}
+.profile-image {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+}
+.profile-icon {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  display: flex;
+  gap: 6px;
+}
+.profile-details {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.avatar {
+  width: 106px;
+  height: 106px;
+  border-radius: 50%;
+  border: 6px solid white;
+  overflow: hidden;
+  position: absolute;
+  top: -50px;
+}
+button {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  align-self: end;
+}
+.profile-header {
+  margin-top: 5px;
+}
+.profile-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 3px;
+}
+.profile-header span{
+  color: grey;
+  font-size: 14px;
+}
+.profile-details> p{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+.stats{
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.stats span{
+  color: grey;
+}
