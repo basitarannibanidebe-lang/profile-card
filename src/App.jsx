@@ -1,5 +1,6 @@
+import Profile from "./components/Profile";
 export default function App() {
-  return (
+  return (<>
     <div className="profile-card">
       <div className="profile-image">
         <img src="/profile-image.jfif" alt="Profile" />
@@ -80,7 +81,9 @@ export default function App() {
             22.2k <span>Followers</span>
           </p>
         </div>
-      </div>
+      </div><br /><br /><br />
     </div>
+      <Profile></Profile>
+  </>
   );
 }
