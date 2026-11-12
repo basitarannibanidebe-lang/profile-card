@@ -29,7 +29,7 @@ export default function Profile() {
         <p className="sarah-description">
           Product Designer who focuses
           <br />
-          on simplicity &amp; usability.
+          on simplicity & usability.
         </p>
 
         <div className="sarah-bottom">
